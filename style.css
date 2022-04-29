@@ -1,0 +1,104 @@
+/*
+Theme Name: nyt_tema
+Template: inspiro
+Version: 1.0.3
+Description: inspiro child theme
+Author: Marie Goltermann gr12
+*/
+
+#upload-2 > div > div > div > span {
+  display: none;
+}
+
+.site-info .imprint {
+  display: none;
+}
+
+.entry .entry-title:before {
+  display: none;
+}
+
+button {
+  padding: 7px 14px 7px;
+  margin-top: 30px;
+  border: 0;
+  background-color: #5486b5;
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s;
+  background-color: #294e56;
+}
+
+body {
+  background-color: #294e56;
+}
+
+#post-48 {
+  margin: 4%;
+}
+
+#post-152 > div > div:nth-child(10) > div:nth-child(1),
+#post-152 > div > div:nth-child(10) > div:nth-child(2),
+#post-152 > div > div:nth-child(10) > div:nth-child(3),
+#post-152 > div > div:nth-child(11) > div:nth-child(1) {
+  outline: solid;
+}
+#post-152 > div > div:nth-child(10) > div:nth-child(1) > h4,
+#post-152 > div > div:nth-child(10) > div:nth-child(2) > h4,
+#post-152 > div > div:nth-child(10) > div:nth-child(3) > h4,
+#post-152 > div > div:nth-child(11) > div:nth-child(1) > h4 {
+  margin-left: 10px;
+}
+
+#post-152 > div > div:nth-child(10) > div:nth-child(1) > p,
+#post-152 > div > div:nth-child(10) > div:nth-child(2) > p,
+#post-152 > div > div:nth-child(10) > div:nth-child(3) > p,
+#post-152 > div > div:nth-child(11) > div:nth-child(1) > p {
+  margin-left: 10px;
+}
+
+#post-279 > div > div > span {
+  width: 100%;
+}
+
+#post-154 > div > div.wp-block-columns > div:nth-child(1),
+#post-154 > div > div.wp-block-columns > div:nth-child(2),
+#post-154 > div > div.wp-block-columns > div:nth-child(3) {
+  outline: solid;
+  margin-top: 5%;
+}
+#post-154 > div > div.wp-block-columns > div:nth-child(1) > div > div > a,
+#post-154 > div > div.wp-block-columns > div:nth-child(2) > div > div > a,
+#post-154 > div > div.wp-block-columns > div:nth-child(3) > div > div > a,
+#post-154 > div > div.wp-block-columns > div:nth-child(1) > h2,
+#post-154 > div > div.wp-block-columns > div:nth-child(2) > h2,
+#post-154 > div > div.wp-block-columns > div:nth-child(3) > h2,
+#post-154 > div > div.wp-block-columns > div:nth-child(1) > p,
+#post-154 > div > div.wp-block-columns > div:nth-child(2) > p,
+#post-154 > div > div.wp-block-columns > div:nth-child(3) > p {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+#site-navigation {
+  background: #2a7ab1e6;
+}
+
+#side-nav > div > div {
+  background: #2a1ab1e6;
+}
+
+@media (min-width: 1025px) {
+  #site-navigation > div > div.header-navigation-wrapper > button {
+    display: none;
+  }
+}
+.wp-block-image img {
+  height: auto;
+  max-width: 30%;
+}
